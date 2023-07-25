@@ -1,0 +1,9 @@
+{
+  "restartable": "rs",
+  "verbose": true,
+  "execMap": {
+    "ts": "node --require ts-node/register"
+  },
+  "watch": ["src", "ormconfig.js", ".env"],
+  "ext": "js,json,ts,graphql"
+}
